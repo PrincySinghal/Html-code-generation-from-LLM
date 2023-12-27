@@ -7,3 +7,26 @@ Fine-Tuning and Evaluating a Falcon 7B Model for HTML Code Generation.
 ### Dataset:
  [jawerty/html_dataset](https://huggingface.co/datasets/jawerty/html_dataset) from Hugging Face Datasetscontaining pairs of natural language prompts and corresponding HTML code.
 
+
+### Process (steps and challenges) 
+1. Model selection
+2. Dataset Preparation and Preprocessing
+3. Model Fine tuning script(setting hyperparameters and choosing fine tuning techniques) 
+4. Model Evaluation
+5. API development to serve the model
+
+### Challenges with solutions 
+
+
+### List of hyperparameters that can be tweaked 
+
+
+### Results 
+
+
+### Further Steps 
+
+
+### Key learnings 
+
+
