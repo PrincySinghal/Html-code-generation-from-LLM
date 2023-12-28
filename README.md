@@ -23,16 +23,16 @@ Used https://huggingface.co/datasets/ttbui/html_alpaca dataset which contains:
 
 
 ### List of hyperparameters that can be tweaked during training: 
-learning_rate: 0.0002
-train_batch_size: 2
-eval_batch_size: 8
-seed: 42
-gradient_accumulation_steps: 2
-total_train_batch_size: 4
-optimizer: Adam with betas=(0.9,0.999) and epsilon=1e-08
-lr_scheduler_type: cosine
-lr_scheduler_warmup_ratio: 0.03
-training_steps: 320
+1.learning_rate: 0.0002
+2. train_batch_size:
+3. eval_batch_size: 8
+4. seed: 42
+5.gradient_accumulation_steps: 2
+6.total_train_batch_size: 4
+7.optimizer: Adam with betas=(0.9,0.999) and epsilon=1e-08
+8.lr_scheduler_type: cosine
+9.lr_scheduler_warmup_ratio: 0.03
+10.training_steps: 320
 
 ### Results 
 Model link- https://huggingface.co/PrincySinghal991/falcon-7b-sharded-bf16-finetuned-html-code-generation
