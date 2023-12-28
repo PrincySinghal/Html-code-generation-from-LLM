@@ -40,7 +40,7 @@ Used https://huggingface.co/datasets/ttbui/html_alpaca dataset which contains:
 Model link- https://huggingface.co/PrincySinghal991/falcon-7b-sharded-bf16-finetuned-html-code-generation
 <img width="500" alt="image" src="https://github.com/PrincySinghal/Html-code-generation-from-LLM/assets/87893594/1b43ccd7-10ad-4962-b30c-5859973b681e">
 <img width="500" alt="image" src="https://github.com/PrincySinghal/Html-code-generation-from-LLM/assets/87893594/dbffede6-3aa2-42c5-8683-a2f43b8d4d1f">
-<img width="403" alt="image" src="https://github.com/PrincySinghal/Html-code-generation-from-LLM/assets/87893594/21b88108-3fc1-403f-b861-e66f76f24d9b">
+<img width="600" alt="image" src="https://github.com/PrincySinghal/Html-code-generation-from-LLM/assets/87893594/21b88108-3fc1-403f-b861-e66f76f24d9b">
 
 
 ### Evaluation Results
