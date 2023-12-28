@@ -6,8 +6,9 @@ Fine-Tuning and Evaluating a Falcon 7B Model for HTML Code Generation.
 
 ### Dataset:
 Used https://huggingface.co/datasets/ttbui/html_alpaca dataset which contains:
-1. Instructions- user prompts
-2. Input-Further information needed as per the instruction could be html code or data points 
+Size of data: 636 rows 
+1. Instructions- user prompts (textual) 
+2. Input-Further information needed as per the instruction could be html code or data points (textual+code) 
 3. Response- empty 
 4. Output- expected HTML code
 
