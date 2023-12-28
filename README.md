@@ -48,7 +48,9 @@ Model link- https://huggingface.co/PrincySinghal991/falcon-7b-sharded-bf16-finet
 1. BLEU score: 
 
 2. Generated HTML output:
-Original vs Fine tuned model 
+Original vs Fine tuned model
+
+3. Fine tuned model's outputs' evaluate_html score: 
 
 
 ### Future Scope 
