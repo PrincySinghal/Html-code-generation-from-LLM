@@ -5,7 +5,11 @@
 Fine-Tuning and Evaluating a Falcon 7B Model for HTML Code Generation. 
 
 ### Dataset:
-
+Used https://huggingface.co/datasets/ttbui/html_alpaca dataset which contains:
+1. Instructions- user prompts
+2. Input-Further information needed as per the instruction could be html code or data points 
+3. Response- empty 
+4. Output- expected HTML code
 
 
 ### Process (steps and challenges) 
@@ -37,12 +41,9 @@ Model link- https://huggingface.co/PrincySinghal991/falcon-7b-sharded-bf16-finet
 ![W B Chart 12_26_2023, 6_52_15 PM](https://github.com/PrincySinghal/Html-code-generation-from-LLM/assets/87893594/a77847dc-db45-452e-a626-df40d36bbdd4)
 ![W B Chart 12_26_2023, 6_52_26 PM](https://github.com/PrincySinghal/Html-code-generation-from-LLM/assets/87893594/e7bed244-3d21-4d38-b7c1-64139491446d)
 
+### Future Scope 
 
 
 
-### Further Steps 
-
-
-### Key learnings 
 
 
