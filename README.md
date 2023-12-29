@@ -27,12 +27,13 @@ Size of data: 636 rows
 4. Dealing with long training times and optimizing model runtime.
 
 ### Solutions Implemented:
-1. Adopting PeFT techniques like LoRA, prefix tuning, and prompt tuning.
+1. Adopting PeFT techniques like LoRA. 
 2. Utilizing quantization and model sharding to manage memory usage.
 3. Setting a random seed for train-test splitting to ensure reproducibility.
-4. Implementing early stopping and learning rate scheduling to improve convergence speed.
+4. Implementing precision training, early stopping and learning rate scheduling to improve convergence speed  and solve GPU memory limitations.
 5. Regularization techniques such as dropout and scaling factor were applied.
 6. Training arguments were carefully set up to balance performance and resource usage.
+
 
 
 
