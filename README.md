@@ -59,7 +59,7 @@ Model link- https://huggingface.co/PrincySinghal991/falcon-7b-sharded-bf16-finet
 1. BLEU score: 0.01782
 
 
-### Current explorations: 
+### Ongoing explorations: 
 1. LLMS more suited for code generation
 2. Hyperparamter tuning to improve low evalution score
 
