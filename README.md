@@ -2,7 +2,7 @@
 
 
 ### Objective: 
-Fine-Tuning and Evaluating a Falcon 7B Model for HTML Code Generation. 
+Fine-tuning the Falcon 7B for the task of HTML code generation. The model was selected based on its performance on complex reasoning benchmarks such as ARC and GSM8K and its compatibility with the available computational resources.
 
 ### Dataset:
 Used https://huggingface.co/datasets/ttbui/html_alpaca dataset which contains:
