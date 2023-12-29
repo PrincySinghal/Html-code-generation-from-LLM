@@ -1,8 +1,8 @@
-# Html-code-generation-from-LLM
+# Html-code-generation-from-LLMs
 
 
 ### Objective: 
-Fine-tuning the Falcon 7B for the task of HTML code generation. The model was selected based on its performance on complex reasoning benchmarks such as ARC and GSM8K and its compatibility with the available computational resources.
+Fine-tuning the Falcon 7B or any other LLMs for the task of HTML code generation. The current model was selected based on its performance on complex reasoning benchmarks such as ARC and GSM8K and its compatibility with the available computational resources.
 
 ### Dataset:
 Used https://huggingface.co/datasets/ttbui/html_alpaca dataset which contains:
@@ -13,7 +13,7 @@ Size of data: 636 rows
 4. Output- expected HTML code
 
 
-### Process (steps and challenges) 
+### Process 
 1. Model selection
 2. Dataset Preparation and Preprocessing 
 3. Model Fine tuning script(setting hyperparameters and choosing fine tuning techniques and regularization) 
@@ -21,7 +21,18 @@ Size of data: 636 rows
 5. API development to serve the model
 
 ### Challenges and Errors encountered with resolutions 
+1. Understanding and implementing Parameter-Efficient Tuning (PeFT).
+2. Managing the computational complexity and memory limitations of large models.
+3. Ensuring reproducibility and consistency across training runs.
+4. Dealing with long training times and optimizing model runtime.
 
+### Solutions Implemented:
+1. Adopting PeFT techniques like LoRA, prefix tuning, and prompt tuning.
+2. Utilizing quantization and model sharding to manage memory usage.
+3. Setting a random seed for train-test splitting to ensure reproducibility.
+4. Implementing early stopping and learning rate scheduling to improve convergence speed.
+5. Regularization techniques such as dropout and scaling factor were applied.
+6. Training arguments were carefully set up to balance performance and resource usage.
 
 
 
@@ -48,7 +59,9 @@ Model link- https://huggingface.co/PrincySinghal991/falcon-7b-sharded-bf16-finet
 1. BLEU score: 0.01782
 
 
-### Future Scope 
+### Current explorations: 
+1. LLMS more suited for code generation
+2. Hyperparamter tuning to improve low evalution score
 
 
 
