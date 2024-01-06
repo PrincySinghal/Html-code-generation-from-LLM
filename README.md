@@ -25,6 +25,7 @@ Size of data: 636 rows
 2. Managing the computational complexity and memory limitations of large models.
 3. Ensuring reproducibility and consistency across training runs.
 4. Dealing with long training times and optimizing model runtime.
+5. Found ways to complete the training and evaluation without buying colab pro. Out of RAM error encountered during model training was solved by trying a different way to load my fine-tuned model rather than loading base model from scratch. 
 
 ### Solutions Implemented:
 1. Adopting PeFT techniques like LoRA. 
